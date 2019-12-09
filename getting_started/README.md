@@ -5,7 +5,9 @@ For creating an account, product and even buying a product please follow the doc
 Please modify the following script files to point at the I3 running instance along with the credentials.
 
 pub.py - this is a publisher script written in python
+
 sub.py - this is a subscriber script written in python
+
 The scripts writes into a configurable log file.
 
 To test them you would need the folowing :
@@ -19,3 +21,5 @@ For sub :
 account refers to username on i3 Marketplace of the subscriber
 pw referes to password obtained in the notification tray
 host refers to MQTT broker
+
+For more details, find the documenation on https://i3sdk.readthedocs.io/
